@@ -49,34 +49,34 @@ public class MdiParentBfca extends javax.swing.JFrame {
 
 		// define Settings node
 		DefaultMutableTreeNode settings = new DefaultMutableTreeNode(
-				new JTreeNode("Settings", "dash_menu_sale_root.png"));
+				new JTreeNode("Settings", "settings-icon.png"));
 		// define sub-nodes for Settings
-		settings.add(new DefaultMutableTreeNode(new JTreeNode("User", "dash_menu_test_root.png")));
+		settings.add(new DefaultMutableTreeNode(new JTreeNode("User", "user-icon.png")));
 
 		// define operation node
 		DefaultMutableTreeNode operation = new DefaultMutableTreeNode(
-				new JTreeNode("Operation", "dash_menu_test_root.png"));
+				new JTreeNode("Operation", "operation-icon.png"));
 		// add sub-nodes for operation
-		operation.add(new DefaultMutableTreeNode(new JTreeNode("Expense", "dash_menu_test_root.png")));
-		operation.add(new DefaultMutableTreeNode(new JTreeNode("Sales", "dash_menu_test_root.png")));
+		operation.add(new DefaultMutableTreeNode(new JTreeNode("Expense", "expense-icon.png")));
+		operation.add(new DefaultMutableTreeNode(new JTreeNode("Sales", "sale-icon.png")));
 
 		// define report node
-		DefaultMutableTreeNode report = new DefaultMutableTreeNode(new JTreeNode("Reports", "dash_menu_test_root.png"));
+		DefaultMutableTreeNode report = new DefaultMutableTreeNode(new JTreeNode("Reports", "reports-icon.png"));
 		// add sub-nodes for report
-		report.add(new DefaultMutableTreeNode(new JTreeNode("Balance Sheet", "dash_menu_test_root.png")));
-		report.add(new DefaultMutableTreeNode(new JTreeNode("Ladger", "dash_menu_test_root.png")));
+		report.add(new DefaultMutableTreeNode(new JTreeNode("Balance Sheet", "balancesheet-icon.png")));
+		report.add(new DefaultMutableTreeNode(new JTreeNode("Ladger", "ladger-icon.png")));
 
 		// define tools node
-		DefaultMutableTreeNode tools = new DefaultMutableTreeNode(new JTreeNode("Tools", "dash_menu_test_root.png"));
+		DefaultMutableTreeNode tools = new DefaultMutableTreeNode(new JTreeNode("Tools", "tools-icon.png"));
 		// add sub-nodes for product
-		tools.add(new DefaultMutableTreeNode(new JTreeNode("Import Date", "dash_menu_test_root.png")));
-		tools.add(new DefaultMutableTreeNode(new JTreeNode("Backup", "dash_menu_test_root.png")));
+		tools.add(new DefaultMutableTreeNode(new JTreeNode("Import Date", "importdate-icon.png")));
+		tools.add(new DefaultMutableTreeNode(new JTreeNode("Backup", "backup-icon.png")));
 
 		// define help node
-		DefaultMutableTreeNode help = new DefaultMutableTreeNode(new JTreeNode("Help", "dash_menu_test_root.png"));
+		DefaultMutableTreeNode help = new DefaultMutableTreeNode(new JTreeNode("Help", "help-icon.png"));
 		// add sub-nodes for records
-		help.add(new DefaultMutableTreeNode(new JTreeNode("User Guide", "dash_menu_test_root.png")));
-		help.add(new DefaultMutableTreeNode(new JTreeNode("Content Developers", "dash_menu_test_root.png")));
+		help.add(new DefaultMutableTreeNode(new JTreeNode("User Guide", "usermanual-icon.png")));
+		help.add(new DefaultMutableTreeNode(new JTreeNode("Content Developers", "contactDevelopers-icon.png")));
 
 		// Test node
 		DefaultMutableTreeNode test = new DefaultMutableTreeNode(new JTreeNode("Test", "dash_menu_test_root.png"));
