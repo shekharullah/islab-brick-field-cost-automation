@@ -217,6 +217,27 @@ public class MdiParentBfca extends javax.swing.JFrame {
 				e.printStackTrace();
 			}
 		}
+		//--------------Expense Frame---------Sub Operation node-----------
+		if ("Expense".equals(selectedNode)) {
+			if (jif != null) {
+				jif.dispose();
+			}
+
+			jif = new ExpenseClass();
+			jif.setClosable(true);
+			jif.setSize(jdpFormDisplay.getSize());
+
+			jif.setVisible(true);
+
+			try {
+				jdpFormDisplay.add(jif);
+				jif.setSelected(true);
+				jtrMenu.setSelectionPath(null);
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
 		
 
 		// ----------------------Test Frame----------------------------

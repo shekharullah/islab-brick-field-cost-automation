@@ -16,6 +16,7 @@ public class UserClass extends javax.swing.JInternalFrame {
      */
     public UserClass() {
         initComponents();
+
     }
 
     /**
